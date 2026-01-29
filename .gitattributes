@@ -1,0 +1,2 @@
+# In .gitattributes file (if you want to keep model but use Git LFS)
+*.h5 filter=lfs diff=lfs merge=lfs -text

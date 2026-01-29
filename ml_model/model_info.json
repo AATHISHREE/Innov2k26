@@ -1,0 +1,29 @@
+{
+  "model_name": "Heart Sound CNN",
+  "description": "Convolutional Neural Network for heart sound classification",
+  "version": "1.0.0",
+  "classes": [
+    "normal",
+    "abnormal"
+  ],
+  "input_shape": [
+    1,
+    128,
+    128,
+    1
+  ],
+  "sample_rate": 22050,
+  "audio_duration": 2.0,
+  "author": "ML Team",
+  "training_date": "2024-01-01",
+  "accuracy": 0.92,
+  "precision": 0.89,
+  "recall": 0.94,
+  "architecture": "CNN with 3 convolution blocks",
+  "features_used": [
+    "MFCC",
+    "Mel Spectrogram",
+    "Spectral Contrast"
+  ],
+  "note": "Loaded from existing file"
+}

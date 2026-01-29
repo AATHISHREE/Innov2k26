@@ -1,0 +1,29 @@
+# Secrets (exclude from git, but keep locally)
+.env
+
+# Virtual environments (keep locally, exclude from git)
+venv/
+.venv/
+
+# Python cache (exclude from git, but keep locally)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Uploads folder content (keep .gitkeep)
+uploads/*
+!uploads/.gitkeep
+
+# Large ML model (optional - you can exclude or use Git LFS)
+# ml_model/heart_sound_cnn.h5  # Uncomment to exclude 33MB file
